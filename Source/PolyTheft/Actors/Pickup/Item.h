@@ -8,12 +8,13 @@
 UENUM(BlueprintType)
 enum class EItemType
 {
-	Cash			UMETA(DisplayName = "Cash"),
-	Jewelery		UMETA(DisplayName = "Jewelery"),
-	Electronics		UMETA(DisplayName = "Electronics"),
-	Tools			UMETA(DisplayName = "Tools"),
-	Alcohol			UMETA(DisplayName = "Alcohol"),
-	Contraband		UMETA(DisplayName = "Contraband"),
+	Cash UMETA(DisplayName = "Cash"),
+	Jewelery UMETA(DisplayName = "Jewelery"),
+	Electronics UMETA(DisplayName = "Electronics"),
+	Tools UMETA(DisplayName = "Tools"),
+	Alcohol UMETA(DisplayName = "Alcohol"),
+	Contraband UMETA(DisplayName = "Contraband"),
+	Art UMETA(DisplayName = "Art"),
 };
 
 USTRUCT(BlueprintType)
@@ -27,7 +28,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	EItemType ItemType = EItemType::Cash;
-	
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int Weight = 0;
 
@@ -45,8 +46,8 @@ UCLASS()
 class POLYTHEFT_API AItem : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AItem();
 
@@ -54,8 +55,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 };
