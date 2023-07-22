@@ -15,6 +15,7 @@ enum class EItemType
 	Alcohol UMETA(DisplayName = "Alcohol"),
 	Contraband UMETA(DisplayName = "Contraband"),
 	Art UMETA(DisplayName = "Art"),
+	Other UMETA(DisplayName = "Other"),
 };
 
 USTRUCT(BlueprintType)
