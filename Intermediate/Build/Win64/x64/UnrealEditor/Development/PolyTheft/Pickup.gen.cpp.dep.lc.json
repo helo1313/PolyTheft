@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\unrealeditor\\inc\\polytheft\\uht\\pickup.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\polythefteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\polytheft\\definitions.polytheft.h",
+            "g:\\polytheft\\polytheft\\source\\polytheft\\actors\\pickup\\pickup.h",
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\unrealeditor\\inc\\polytheft\\uht\\pickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

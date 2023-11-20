@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\polytheft\\polytheft\\source\\polytheft\\actors\\pickup\\item.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\polythefteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\polytheft\\definitions.polytheft.h",
+            "g:\\polytheft\\polytheft\\source\\polytheft\\actors\\pickup\\item.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\datatable.generated.h",
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\unrealeditor\\inc\\polytheft\\uht\\item.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

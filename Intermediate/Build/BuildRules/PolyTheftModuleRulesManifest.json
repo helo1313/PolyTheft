@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\PolyTheft\\PolyTheft\\Source\\PolyTheft\\PolyTheft.Build.cs",
+		"G:\\PolyTheft\\PolyTheft\\Source\\PolyTheft.Target.cs",
+		"G:\\PolyTheft\\PolyTheft\\Source\\PolyTheftEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.0"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PolyTheft",
+			"Path": "G:\\PolyTheft\\PolyTheft\\Source\\PolyTheft.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PolyTheftEditor",
+			"Path": "G:\\PolyTheft\\PolyTheft\\Source\\PolyTheftEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

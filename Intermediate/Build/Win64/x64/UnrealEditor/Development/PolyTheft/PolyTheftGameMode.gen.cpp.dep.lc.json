@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\unrealeditor\\inc\\polytheft\\uht\\polytheftgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\polythefteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\polytheft\\definitions.polytheft.h",
+            "g:\\polytheft\\polytheft\\source\\polytheft\\polytheftgamemode.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\unreal engine\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "g:\\polytheft\\polytheft\\intermediate\\build\\win64\\unrealeditor\\inc\\polytheft\\uht\\polytheftgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

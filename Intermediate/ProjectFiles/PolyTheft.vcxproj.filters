@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PolyTheft.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PolyTheft.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PolyTheftEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Source\PolyTheft">
+      <UniqueIdentifier>{1E6137B8-8D8D-3815-AB11-47687ADA2B36}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PolyTheft\PolyTheft.Build.cs">
+      <Filter>Source\PolyTheft</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PolyTheft\PolyTheft.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\PolyTheft.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PolyTheft\PolyTheftCharacter.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\PolyTheftCharacter.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PolyTheft\PolyTheftGameMode.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\PolyTheftGameMode.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PolyTheft\PolyTheftProjectile.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\PolyTheftProjectile.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PolyTheft\TP_PickUpComponent.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\TP_PickUpComponent.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PolyTheft\TP_WeaponComponent.cpp">
+      <Filter>Source\PolyTheft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\TP_WeaponComponent.h">
+      <Filter>Source\PolyTheft</Filter>
+    </ClInclude>
+    <Filter Include="Source\PolyTheft\Actors">
+      <UniqueIdentifier>{B32B481A-A18D-3B1A-ACBF-244659AC1816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PolyTheft\Actors\Pickup">
+      <UniqueIdentifier>{8F75B9DE-A72B-39CD-AFAA-2FB8F2AEB477}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PolyTheft\Actors\Pickup\Pickup.cpp">
+      <Filter>Source\PolyTheft\Actors\Pickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PolyTheft\Actors\Pickup\Pickup.h">
+      <Filter>Source\PolyTheft\Actors\Pickup</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
