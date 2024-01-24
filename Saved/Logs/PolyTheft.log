@@ -1996,3 +1996,392 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.24-12.01.36:528][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.01.24-12.01.36:532][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2024.01.24-12.01.36:567][912]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.01.24-12.02.59:297][177]LogEditorClassViewer: Warning: Class /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C has parent /Script/TP_FirstPerson.TP_FirstPersonProjectile, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.01.24-12.03.01:185][177]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.01.24-12.03.01:193][177]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.01.24-12.03.01:199][177]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.01.24-12.03.01:214][178]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.01.24-12.03.21:120][208]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_StaticItemInfo
+[2024.01.24-12.03.21:127][208]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.01.24-12.03.25:369][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.01.24-12.03.26:172][618]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.24-12.03.26:212][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.01.24-12.03.26:237][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.24-12.03.26:260][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.01.24-12.03.30:415][  3]LogContentBrowser: Deferred new asset file creation: WBP_PickupInfo1
+[2024.01.24-12.03.30:424][  3]LogContentBrowser: Creating deferred item: WBP_PickupInfo1
+[2024.01.24-12.03.30:434][  4]LogContentBrowser: Renaming the item being created (Deferred Item: WBP_PickupInfo1).
+[2024.01.24-12.03.37:447][721]LogContentBrowser: Attempting asset rename: WBP_PickupInfo1 -> WBP_StaticItemInfo
+[2024.01.24-12.03.37:475][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.24-12.03.37:486][721]LogContentBrowser: End creating deferred item WBP_PickupInfo1
+[2024.01.24-12.03.39:542][926]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo
+[2024.01.24-12.03.39:543][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.03.39:543][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.03.39:558][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.03.39:558][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.03.39:564][926]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.01.24-12.03.39:793][926]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.01.24-12.03.39:798][926]LogSlate: Took 0.005513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.24-12.03.41:391][ 72]LogSlate: Took 0.013866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.24-12.03.51:646][879]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.03.51:648][879]LogBlueprint: Warning: [AssetLog] /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo: [Compiler] Could not find a variable named "ItemValue" in 'WBP_StaticItemInfo_C'.
+Make sure 'WBP_StaticItemInfo_C' has been compiled for  Get ItemValue
+[2024.01.24-12.03.51:648][879]LogBlueprint: Warning: [AssetLog] /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo: [Compiler] Could not find a variable named "ItemWeight" in 'WBP_StaticItemInfo_C'.
+Make sure 'WBP_StaticItemInfo_C' has been compiled for  Get ItemWeight
+[2024.01.24-12.03.51:648][879]LogBlueprint: Error: [AssetLog] /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo: [Compiler] The property associated with  Item Weight  could not be found in '/Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo_C'
+[2024.01.24-12.03.51:648][879]LogBlueprint: Error: [AssetLog] /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo: [Compiler] The property associated with  Item Value  could not be found in '/Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo_C'
+[2024.01.24-12.03.51:687][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.24-12.03.51:999][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.03.52:024][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_StaticItemInfo" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset" SILENT=true
+[2024.01.24-12.03.52:030][896]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_StaticItemInfo
+[2024.01.24-12.03.52:030][896]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_StaticItemInfoD9412C0C4D7E30B2D7C0FEB0CCDABBE7.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset'
+[2024.01.24-12.03.52:042][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.37 sec)
+[2024.01.24-12.03.52:047][896]AssetCheck: New page: Asset Save: WBP_StaticItemInfo
+[2024.01.24-12.03.52:047][896]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo
+[2024.01.24-12.04.18:364][321]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.04.18:408][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.24-12.04.21:316][594]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.04.21:355][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.24-12.04.21:646][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.04.21:686][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_StaticItemInfo" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset" SILENT=true
+[2024.01.24-12.04.21:690][618]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_StaticItemInfo
+[2024.01.24-12.04.21:690][618]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_StaticItemInfo1AB794474A718CADF7E09BA5F4FF5B6D.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset'
+[2024.01.24-12.04.21:694][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.42 sec)
+[2024.01.24-12.04.21:700][618]AssetCheck: New page: Asset Save: WBP_StaticItemInfo
+[2024.01.24-12.04.21:700][618]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo
+[2024.01.24-12.04.25:618][992]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.04.25:655][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.24-12.04.57:429][750]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.04.57:469][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.24-12.04.57:790][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.04.57:821][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_StaticItemInfo" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset" SILENT=true
+[2024.01.24-12.04.57:826][765]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_StaticItemInfo
+[2024.01.24-12.04.57:826][765]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_StaticItemInfo8CFD0A3D445D52B7C5EA6D9E2FA02CA4.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset'
+[2024.01.24-12.04.57:832][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.46 sec)
+[2024.01.24-12.04.57:837][765]AssetCheck: New page: Asset Save: WBP_StaticItemInfo
+[2024.01.24-12.04.57:837][765]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo
+[2024.01.24-12.05.38:922][374]BlueprintLog: New page: Compile WBP_StaticItemInfo
+[2024.01.24-12.05.38:964][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.01.24-12.05.39:562][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.05.39:599][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_StaticItemInfo" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset" SILENT=true
+[2024.01.24-12.05.39:604][429]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_StaticItemInfo
+[2024.01.24-12.05.39:604][429]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_StaticItemInfoF29F353E4E71CA3D57A231BFE12CECA1.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_StaticItemInfo.uasset'
+[2024.01.24-12.05.39:610][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1.51 sec)
+[2024.01.24-12.05.39:617][429]AssetCheck: New page: Asset Save: WBP_StaticItemInfo
+[2024.01.24-12.05.39:617][429]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_StaticItemInfo.WBP_StaticItemInfo
+[2024.01.24-12.05.56:532][605]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PolyTheft/Core/BlueprintLibrary/BPFL_Getters.BPFL_Getters
+[2024.01.24-12.05.56:533][605]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.05.56:533][605]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.06.17:145][572]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PolyTheft/Core/BP_GameplayHud.BP_GameplayHud
+[2024.01.24-12.06.17:145][572]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.06.17:145][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.06.23:684][152]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/PolyTheft/UI/WBP_HeadsUpDisplay.WBP_HeadsUpDisplay
+[2024.01.24-12.06.23:684][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.06.23:684][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.06.23:690][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.06.23:691][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.08.04:783][298]BlueprintLog: New page: Compile WBP_HeadsUpDisplay
+[2024.01.24-12.08.04:851][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.24-12.08.05:501][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.08.05:531][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_HeadsUpDisplay" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_HeadsUpDisplay.uasset" SILENT=true
+[2024.01.24-12.08.05:534][341]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_HeadsUpDisplay
+[2024.01.24-12.08.05:534][341]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_HeadsUpDisplayCBBB4DE746DB7AFC5165FF99BA3ADF5F.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_HeadsUpDisplay.uasset'
+[2024.01.24-12.08.05:539][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 1.55 sec)
+[2024.01.24-12.08.05:545][341]AssetCheck: New page: Asset Save: WBP_HeadsUpDisplay
+[2024.01.24-12.08.05:545][341]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_HeadsUpDisplay.WBP_HeadsUpDisplay
+[2024.01.24-12.08.08:765][638]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.24-12.08.08:772][638]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.24-12.08.08:774][638]LogWorldPartition: Display: GenerateStreaming started...
+[2024.01.24-12.08.08:774][638]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.01.24-12.08.08:774][638]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 85 us)
+[2024.01.24-12.08.08:774][638]LogWorldPartition: Display: GenerateStreaming took 288 us (total: 2 ms)
+[2024.01.24-12.08.08:774][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.24-12.08.08:775][638]PIE: New page: PIE session: FirstPersonMap (24 sty 2024, 14:08:08)
+[2024.01.24-12.08.08:798][638]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.08.08:808][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008775s)
+[2024.01.24-12.08.08:808][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008809s)
+[2024.01.24-12.08.08:808][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.08.08:808][638]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.08.08:808][638]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.24-12.08.08:809][638]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.24-12.08.08:809][638]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.24-12.08.08:809][638]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.01.24-12.08.08:811][638]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.24-12.08.08:811][638]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.31 sec)
+[2024.01.24-12.08.08:811][638]LogPlayLevel: PIE: World Init took: (0.002963s)
+[2024.01.24-12.08.08:833][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.24-12.08.08:834][638]LogEasyMultiSave: Easy Multi Save Initialized
+[2024.01.24-12.08.08:834][638]LogEasyMultiSave: Current Save Game Slot is: TestSave
+[2024.01.24-12.08.08:834][638]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.01.24-12.08.08:834][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.24-12.08.08:834][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.24-12.08.08:835][638]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.24-12.08.08:835][638]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.24-12.08.08:835][638]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.24-12.08.08:836][638]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.24-12.08.08:857][638]LogAudioMixer: Display: Using Audio Hardware Device Zestaw słuchawkowy (2 — Arctis 7 Chat)
+[2024.01.24-12.08.08:857][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.24-12.08.08:857][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.24-12.08.08:857][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.24-12.08.08:858][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.24-12.08.08:858][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.24-12.08.08:859][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.24-12.08.08:859][638]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.24-12.08.08:859][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.24-12.08.08:859][638]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2024.01.24-12.08.08:859][638]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.24-12.08.08:861][638]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2024.01.24-12.08.08:865][638]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.01.24-13.08.08
+[2024.01.24-12.08.08:866][638]LogWorld: Bringing up level for play took: 0.004246
+[2024.01.24-12.08.08:867][638]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.01.24-12.08.08:870][638]PIE: Server logged in
+[2024.01.24-12.08.08:871][638]PIE: Play in editor total start time 0,098 seconds.
+[2024.01.24-12.08.12:260][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.08.12:260][ 24]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.08.12:261][ 24]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.08.12:265][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.08.12:265][ 24]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.24-12.08.12:281][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.24-12.08.12:293][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.08.12:327][ 24]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.24-12.08.12:327][ 24]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.24-12.08.12:327][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.24-12.08.12:328][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.24-12.08.12:332][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.08.12:334][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.24-12.08.12:376][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.01.24-12.08.31:243][588]BlueprintLog: New page: Compile WBP_HeadsUpDisplay
+[2024.01.24-12.08.31:291][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.24-12.08.31:723][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.08.31:755][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/UI/WBP_HeadsUpDisplay" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_HeadsUpDisplay.uasset" SILENT=true
+[2024.01.24-12.08.31:759][625]LogSavePackage: Moving output files for package: /Game/PolyTheft/UI/WBP_HeadsUpDisplay
+[2024.01.24-12.08.31:759][625]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/WBP_HeadsUpDisplay1D1B88BF43414E9DA88FFD996E2C78E7.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/UI/WBP_HeadsUpDisplay.uasset'
+[2024.01.24-12.08.31:766][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.59 sec)
+[2024.01.24-12.08.31:771][625]AssetCheck: New page: Asset Save: WBP_HeadsUpDisplay
+[2024.01.24-12.08.31:771][625]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/PolyTheft/UI/WBP_HeadsUpDisplay.WBP_HeadsUpDisplay
+[2024.01.24-12.08.32:862][737]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.08.32:862][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.08.32:869][737]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.08.32:869][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.08.34:062][845]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.08.34:062][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.08.36:378][ 83]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.08.36:378][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.09.53:073][450]BlueprintLog: New page: Compile BP_Key
+[2024.01.24-12.09.53:122][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.24-12.09.53:784][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.09.53:829][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/Core/Actor/BP_Key" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Key.uasset" SILENT=true
+[2024.01.24-12.09.53:835][507]LogSavePackage: Moving output files for package: /Game/PolyTheft/Core/Actor/BP_Key
+[2024.01.24-12.09.53:835][507]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/BP_KeyBC0C6813439CFA2DA96CDD9CCC8F8C86.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Key.uasset'
+[2024.01.24-12.09.53:842][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.65 sec)
+[2024.01.24-12.09.53:847][507]AssetCheck: New page: Asset Save: BP_Key
+[2024.01.24-12.09.53:847][507]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PolyTheft/Core/Actor/BP_Key.BP_Key
+[2024.01.24-12.09.55:715][719]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.24-12.09.55:722][719]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.24-12.09.55:724][719]LogWorldPartition: Display: GenerateStreaming started...
+[2024.01.24-12.09.55:724][719]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.01.24-12.09.55:724][719]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 92 us)
+[2024.01.24-12.09.55:724][719]LogWorldPartition: Display: GenerateStreaming took 245 us (total: 2 ms)
+[2024.01.24-12.09.55:725][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.24-12.09.55:725][719]PIE: New page: PIE session: FirstPersonMap (24 sty 2024, 14:09:55)
+[2024.01.24-12.09.55:758][719]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.09.55:767][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008814s)
+[2024.01.24-12.09.55:767][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008846s)
+[2024.01.24-12.09.55:767][719]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.09.55:767][719]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.09.55:767][719]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.24-12.09.55:768][719]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.24-12.09.55:768][719]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.24-12.09.55:768][719]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.01.24-12.09.55:770][719]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.24-12.09.55:770][719]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.31 sec)
+[2024.01.24-12.09.55:770][719]LogPlayLevel: PIE: World Init took: (0.002935s)
+[2024.01.24-12.09.55:791][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.24-12.09.55:794][719]LogEasyMultiSave: Easy Multi Save Initialized
+[2024.01.24-12.09.55:794][719]LogEasyMultiSave: Current Save Game Slot is: TestSave
+[2024.01.24-12.09.55:794][719]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.01.24-12.09.55:794][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.24-12.09.55:794][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.24-12.09.55:794][719]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.24-12.09.55:794][719]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.24-12.09.55:794][719]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.24-12.09.55:796][719]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.24-12.09.55:816][719]LogAudioMixer: Display: Using Audio Hardware Device Zestaw słuchawkowy (2 — Arctis 7 Chat)
+[2024.01.24-12.09.55:816][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.24-12.09.55:816][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.24-12.09.55:816][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.24-12.09.55:817][719]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.01.24-12.09.55:817][719]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.01.24-12.09.55:818][719]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.01.24-12.09.55:818][719]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.01.24-12.09.55:818][719]LogInit: FAudioDevice initialized with ID 10.
+[2024.01.24-12.09.55:818][719]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2024.01.24-12.09.55:818][719]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.24-12.09.55:821][719]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2024.01.24-12.09.55:825][719]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.01.24-13.09.55
+[2024.01.24-12.09.55:825][719]LogWorld: Bringing up level for play took: 0.004263
+[2024.01.24-12.09.55:827][719]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.01.24-12.09.55:829][719]PIE: Server logged in
+[2024.01.24-12.09.55:830][719]PIE: Play in editor total start time 0,108 seconds.
+[2024.01.24-12.10.11:780][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.10.11:780][618]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.10.11:780][618]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.10.11:784][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.10.11:784][618]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.24-12.10.11:815][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.24-12.10.11:819][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.10.11:843][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.24-12.10.11:843][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.24-12.10.11:843][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.24-12.10.11:845][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.24-12.10.11:848][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.10.11:851][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.24-12.10.11:896][619]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.01.24-12.12.11:280][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.24-12.12.11:284][501]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/TT/N6XP42JEBY4IO8LNC7UKBO_Auto3
+[2024.01.24-12.12.11:284][501]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/N6XP42JEBY4IO8LNC7UKBO_Auto303724A6D4A4378ED865031BCA8F5124D.tmp' to 'G:/PolyTheft/PolyTheft/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/TT/N6XP42JEBY4IO8LNC7UKBO_Auto3.uasset'
+[2024.01.24-12.12.11:299][501]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/IX/QLDJBLMEAT3QT4UW5VTET9_Auto3
+[2024.01.24-12.12.11:299][501]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/QLDJBLMEAT3QT4UW5VTET9_Auto3983FF5A24288AEA8DB145BBC4D86F0C8.tmp' to 'G:/PolyTheft/PolyTheft/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/IX/QLDJBLMEAT3QT4UW5VTET9_Auto3.uasset'
+[2024.01.24-12.12.11:299][501]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.044
+[2024.01.24-12.12.11:299][501]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2024.01.24-12.12.11:300][501]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PolyTheft/Core/Actor/BP_Lock] ([2] browsable assets)...
+[2024.01.24-12.12.11:376][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PolyTheft/Core/Actor/BP_Lock.BP_Lock]
+[2024.01.24-12.12.11:377][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/PolyTheft/Core/Actor/BP_Lock]
+[2024.01.24-12.12.11:377][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/Core/Actor/BP_Lock" FILE="G:/PolyTheft/PolyTheft/Saved/Autosaves/Game/PolyTheft/Core/Actor/BP_Lock_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.01.24-12.12.11:384][501]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PolyTheft/Core/Actor/BP_Lock_Auto3
+[2024.01.24-12.12.11:384][501]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/BP_Lock_Auto35691F388403F97B9414FE395CFA69D98.tmp' to 'G:/PolyTheft/PolyTheft/Saved/Autosaves/Game/PolyTheft/Core/Actor/BP_Lock_Auto3.uasset'
+[2024.01.24-12.12.11:384][501]LogFileHelpers: Auto-saving content packages took 0.085
+[2024.01.24-12.13.11:085][672]BlueprintLog: New page: Compile BP_Lock
+[2024.01.24-12.13.11:133][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.24-12.13.11:519][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.13.11:568][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/Core/Actor/BP_Lock" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Lock.uasset" SILENT=true
+[2024.01.24-12.13.11:574][705]LogSavePackage: Moving output files for package: /Game/PolyTheft/Core/Actor/BP_Lock
+[2024.01.24-12.13.11:574][705]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/BP_Lock70A9E77B45CCCEB603DFBC939F81DD12.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Lock.uasset'
+[2024.01.24-12.13.11:582][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.71 sec)
+[2024.01.24-12.13.11:587][705]AssetCheck: New page: Asset Save: BP_Lock
+[2024.01.24-12.13.11:587][705]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PolyTheft/Core/Actor/BP_Lock.BP_Lock
+[2024.01.24-12.13.18:293][428]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.24-12.13.18:298][428]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.24-12.13.18:300][428]LogWorldPartition: Display: GenerateStreaming started...
+[2024.01.24-12.13.18:300][428]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.01.24-12.13.18:300][428]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 100 us)
+[2024.01.24-12.13.18:301][428]LogWorldPartition: Display: GenerateStreaming took 259 us (total: 2 ms)
+[2024.01.24-12.13.18:301][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.24-12.13.18:301][428]PIE: New page: PIE session: FirstPersonMap (24 sty 2024, 14:13:18)
+[2024.01.24-12.13.18:301][428]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.13.18:310][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009023s)
+[2024.01.24-12.13.18:311][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009048s)
+[2024.01.24-12.13.18:311][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.13.18:311][428]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.13.18:311][428]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.24-12.13.18:311][428]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.24-12.13.18:311][428]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.24-12.13.18:311][428]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.01.24-12.13.18:313][428]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.24-12.13.18:313][428]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.31 sec)
+[2024.01.24-12.13.18:314][428]LogPlayLevel: PIE: World Init took: (0.003059s)
+[2024.01.24-12.13.18:335][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.01.24-12.13.18:337][428]LogEasyMultiSave: Easy Multi Save Initialized
+[2024.01.24-12.13.18:337][428]LogEasyMultiSave: Current Save Game Slot is: TestSave
+[2024.01.24-12.13.18:337][428]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.01.24-12.13.18:337][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.24-12.13.18:337][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.24-12.13.18:338][428]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.24-12.13.18:338][428]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.24-12.13.18:338][428]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.24-12.13.18:339][428]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.24-12.13.18:360][428]LogAudioMixer: Display: Using Audio Hardware Device Zestaw słuchawkowy (2 — Arctis 7 Chat)
+[2024.01.24-12.13.18:360][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.24-12.13.18:360][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.24-12.13.18:360][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.24-12.13.18:361][428]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.01.24-12.13.18:361][428]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.01.24-12.13.18:362][428]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.01.24-12.13.18:362][428]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.01.24-12.13.18:362][428]LogInit: FAudioDevice initialized with ID 11.
+[2024.01.24-12.13.18:362][428]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonMap'.
+[2024.01.24-12.13.18:362][428]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.24-12.13.18:365][428]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2024.01.24-12.13.18:369][428]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.01.24-13.13.18
+[2024.01.24-12.13.18:369][428]LogWorld: Bringing up level for play took: 0.004315
+[2024.01.24-12.13.18:371][428]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.01.24-12.13.18:374][428]PIE: Server logged in
+[2024.01.24-12.13.18:374][428]PIE: Play in editor total start time 0,075 seconds.
+[2024.01.24-12.13.58:809][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.13.58:810][261]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.24-12.13.58:810][261]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.13.58:814][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.13.58:814][261]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.24-12.13.58:850][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.24-12.13.58:855][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.13.58:878][261]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.24-12.13.58:878][261]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.24-12.13.58:879][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.24-12.13.58:880][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.24-12.13.58:883][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.13.58:886][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.24-12.13.58:930][262]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.01.24-12.14.25:162][937]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PolyTheft/Core/Components/BP_SprintComponent.BP_SprintComponent
+[2024.01.24-12.14.25:163][937]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.14.25:163][937]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.15.01:062][842]BlueprintLog: New page: Compile BP_SprintComponent
+[2024.01.24-12.15.01:122][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.24-12.15.01:375][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.15.01:395][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/Core/Components/BP_SprintComponent" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Components/BP_SprintComponent.uasset" SILENT=true
+[2024.01.24-12.15.01:405][859]LogSavePackage: Moving output files for package: /Game/PolyTheft/Core/Components/BP_SprintComponent
+[2024.01.24-12.15.01:405][859]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/BP_SprintComponent784982F44CA6239DF9B6A79A11A77CF3.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Components/BP_SprintComponent.uasset'
+[2024.01.24-12.15.01:412][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 1.75 sec)
+[2024.01.24-12.15.01:417][859]AssetCheck: New page: Asset Save: BP_SprintComponent
+[2024.01.24-12.15.01:417][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PolyTheft/Core/Components/BP_SprintComponent.BP_SprintComponent
+[2024.01.24-12.22.52:394][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.24-12.22.52:397][471]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/IX/QLDJBLMEAT3QT4UW5VTET9_Auto4
+[2024.01.24-12.22.52:397][471]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/QLDJBLMEAT3QT4UW5VTET9_Auto4B74FEC604B45C381E600F1B9AC388F0E.tmp' to 'G:/PolyTheft/PolyTheft/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/IX/QLDJBLMEAT3QT4UW5VTET9_Auto4.uasset'
+[2024.01.24-12.22.52:398][471]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.027
+[2024.01.24-12.22.52:398][471]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.027
+[2024.01.24-12.27.05:717][321]BlueprintLog: New page: Compile BP_Lock
+[2024.01.24-12.27.05:766][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.24-12.27.06:318][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.27.06:362][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PolyTheft/Core/Actor/BP_Lock" FILE="G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Lock.uasset" SILENT=true
+[2024.01.24-12.27.06:369][369]LogSavePackage: Moving output files for package: /Game/PolyTheft/Core/Actor/BP_Lock
+[2024.01.24-12.27.06:369][369]LogSavePackage: Moving 'G:/PolyTheft/PolyTheft/Saved/BP_Lock9E092A614F93B60923F0648DCF890052.tmp' to 'G:/PolyTheft/PolyTheft/Content/PolyTheft/Core/Actor/BP_Lock.uasset'
+[2024.01.24-12.27.06:375][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.80 sec)
+[2024.01.24-12.27.06:381][369]AssetCheck: New page: Asset Save: BP_Lock
+[2024.01.24-12.27.06:381][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PolyTheft/Core/Actor/BP_Lock.BP_Lock
+[2024.01.24-12.27.06:965][416]LogSlate: Window 'BP_SprintComponent' being destroyed
+[2024.01.24-12.27.06:970][416]LogSlate: Window 'BP_SprintComponent' being destroyed
+[2024.01.24-12.27.06:974][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.24-12.27.06:974][416]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.06:974][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:009][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.24-12.27.07:009][416]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:009][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:043][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.24-12.27.07:043][416]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:043][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:078][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.24-12.27.07:078][416]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:078][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:116][416]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:116][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:123][416]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:123][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.27.07:148][416]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.27.07:148][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
